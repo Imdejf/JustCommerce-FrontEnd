@@ -11,5 +11,7 @@
     "composite": true,
     "module": "ESNext",
     "types": ["node"]
-  }
+  },
+  "allowSyntheticDefaultImports":true,
+  "types": ["node"]
 }
