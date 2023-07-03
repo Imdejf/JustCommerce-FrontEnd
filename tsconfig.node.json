@@ -5,13 +5,15 @@
     "vitest.config.*",
     "cypress.config.*",
     "nightwatch.conf.*",
-    "playwright.config.*"
+    "playwright.config.*",
+    "vite.config.ts"
   ],
   "compilerOptions": {
     "composite": true,
     "module": "ESNext",
-    "types": ["node"]
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true
   },
   "allowSyntheticDefaultImports":true,
-  "types": ["node"]
+  "types": ["node"],
 }
